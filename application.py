@@ -90,7 +90,7 @@ def logout():
     return redirect(url_for('home'))
 
 
-#Needed to run locally
+#Needed to run locally?
 #app.run(host=os.getenv('IP', '127.0.0.1'), port=int(os.getenv('PORT', 5000)), debug=False)
 
 #Needed to run on Elastic Beanstalk
